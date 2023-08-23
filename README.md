@@ -1,6 +1,5 @@
-# Logical gates
-This logical gates program takes the inputs as a and b and returns the output as y after passing through the various logical gates that are AND gate and NOT gate.
-
+# Logical gates and Matic transaction
+This programme uses logical gates to process the inputs a and b, returning y as the output after going through several gates such as the AND gate and NOT gate.
 ## Description
 This programme is a straightforward example of the operation of a logical AND gate and a NOT gate. It accepts the inputs a and b, processes them through the AND gate to get the output X, then feeds that result into the NOT gate to produce the final output, which is Y. It includes a variety of files, including hardhat.config.ts, gitignore, contracts, scripts, types, and circuits. Hardhat.config.ts has the programme for the Mumbai network along with the relevant url and private key, and dotenv is also installed. Circuits file contains the primary code of the input, output, and their logics depending on the employed gates. The account's private key is also added to the.env file as the network private key, MUMBAIPRIVATEKEY. Additionally, the matic network was introduced to the metamask wallet, enabling matic transactions to occur in the wallet. Mumbai faucet has been utilised for MATIC, but it can only offer matic once every 24 hours, and for that, an account's username and password must be pasted on Mumbai faucet. The Mumbai Testnet is also used to display MATIC transactions.
 ## Getting Started
